@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    flex-direction: column;
+}
+
+.div1{
+    width: 300px;
+    height: 200px;   
+    border: 3px solid gray; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.flag{ 
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    border-radius: 50%;
+}
+.div2{
+    width: 300px;
+    height: 300px; 
+    border: 3px solid gray; 
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    
+
+
+}
+.boxes {
+    background-color: aqua;
+    width: 50px;
+    margin-bottom: 25px;
+
+}
+.box1{
+    height: 250px;
+}
+.box2{
+    height: 174px;
+}
+.box3{
+    height: 92px;
+}
+.box4{
+    height: 221px;
+ 
+}

@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,p{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+@media screen and (min-width:835px) {
+  
+.display{
+    width: 1440px;
+    height: 1046px;
+}
+.container{
+    width:80% ;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.about-left h1{
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-top: 91px;
+    margin-left: 124px;
+    width: 365px;
+    height: 93px;
+}
+.about-left p {
+    font-family: "Roboto";
+    width: 662px;
+    height: 374px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color:#000000;
+    margin-top: 18px;
+    margin-left: 124px;
+}
+.about-right{
+    margin-top: 226px;
+    margin-right:150px;
+    margin-left: 193px;
+}
+.last{
+    display: flex;
+    align-items: center;
+    margin-left: 127px;
+    margin-top: 101px;
+}.last-right .list{
+    display: flex;
+    font-family:'Roboto';
+
+}
+li{
+    width: 150px;
+    height: 39px;
+}
+.list-head{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+}
+
+.list-last{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.list1{
+    margin-left: 132px;
+}
+.list2{
+    margin-left: 95px;
+}
+.list3{
+    margin-left: 93px;
+}
+.under-img{
+    position: absolute;
+    bottom:1px;
+    left: -29px;
+    z-index: -100;
+}
+.about-right{
+    position: relative;
+   
+}
+.ellipse-img{
+    position: absolute;
+    bottom: -13px;
+    left: 32px;
+    z-index: -10;
+}
+.last-left{
+    position: relative;
+}
+.about-right2{
+    display: none;
+}
+}
+
+@media screen and (min-width:376px) and (max-width:834px) {
+    .display{
+        width: 834px;
+        height: 633px;
+    }
+    .about{
+        display: flex;
+        justify-content: space-between;
+    }
+    .about-left h1{
+        font-family: "Roboto Slab";
+        font-weight: 700;
+        font-size: 32px;
+        margin-top: 56px;
+        margin-left: 72px;
+        width: 211.4px;
+        height: 53.86px;
+    }
+    .about-left p {
+        font-family: "Roboto";
+        width: 383.41px;
+        height: 216.61px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color:#000000;
+        margin-top: 10.42px;
+        margin-left: 72px;
+    }
+    .above-img{
+        width: 181.86px;
+        height: 182.44px;
+    }
+    .under-img{
+        width: 211.98px;
+        height: 34.17px;
+
+    }
+    .about-right{
+        margin-top: 134.19px;
+        margin-right:86.69px;
+    }
+    .last{
+        margin-left: 0px;
+        margin-top: 101px;
+    }.last-right .list{
+        display: flex;
+        font-family:'Roboto';
+    
+    }
+    li{
+        width: 86.88px;
+        height: 22.59px;
+    }
+    .list-head{
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 19.130%;
+    }
+    
+    .list-last{
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 130%;
+    }
+    .list-last-center{
+        width: 108px;
+        height: 23px;
+    }
+    .list1{
+        margin-left: 72px;
+    }
+    .list2{
+        margin-left: 55.23px;
+    }
+    .list3{
+        margin-left: 32.53px;
+    }
+    .under-img{
+        position: absolute;
+        bottom:3px;
+        left: -17px;
+        z-index: -100;
+    }
+    .about-right{
+        position: relative;
+       
+    }
+    .ellipse-img{
+        position: absolute;
+        bottom: -13px;
+        left: 32px;
+        z-index: -10;
+    }
+    .last-left{
+        position: relative;
+        display: none;
+    }  
+    .about-right2{
+        display: none;
+    }     
+}
+
+@media screen and (max-width:375px) {
+    .display{
+        width: 375px;
+        height: 776px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-left h1{
+        font-family: "Roboto Slab";
+        font-weight: 700;
+        font-size: 26px;
+        margin-top: 56px;
+        margin-left: 36px;
+        width: 170.08px;
+        height: 43.34px;
+    }
+    .about-left p {
+        font-family: "Roboto";
+        width: 308.47px;
+        height: 174.27px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color:#000000;
+        margin-top: 8.39px;
+        margin-left: 36px;
+    }
+    .about-right{
+        display: none;
+    }
+    .about-right2{
+        margin-top: 56px;
+        margin-left:101px;
+    }
+    .last{
+        margin-left: 0px;
+        margin-top: 101px;
+    }
+    .last-right .list{
+        display: flex;
+        font-family:'Roboto';
+        flex-wrap: wrap;
+    
+    }
+    .list-head{
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 130%;
+        width: 69.9px;
+        height: 18.17px;
+    }
+    .list-last{
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 130%;
+    }
+    .list-last-left{
+        width: 86px;
+        height: 18px;
+    }
+    .list-last-center{
+        width: 86.89px;
+        height: 18.5px;
+    }
+    .list-last-right{
+        width: 76px;
+        height: 18px;
+    }
+    .list1{
+        margin-left: 35px;
+        margin-bottom: 30px;
+    }
+    .list2{
+        margin-left: 33.16px;
+        margin-right: 30px;
+    }
+    .list3{
+        margin-left: 35px;
+       ;
+    }
+    .under-img{
+        position: absolute;
+        bottom:3px;
+        left: -17px;
+        z-index: -100;
+    }
+    .about-right{
+        position: relative;
+       
+    }
+    .ellipse-img{
+        position: absolute;
+        bottom: -13px;
+        left: 32px;
+        z-index: -10;
+    }
+    .last-left{
+        position: relative;
+        display: none;
+    }   
+}
