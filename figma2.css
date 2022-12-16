@@ -800,7 +800,7 @@ a{
         margin-left: -11px;
     }  
 }
-@media (max-width:991px) {
+@media screen and (min-width:320px) and (max-width:991px) {
     .display{
         padding: 0 35px;
         margin-top: 36px;
